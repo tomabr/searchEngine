@@ -1,0 +1,107 @@
+body {
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    font-family: Verdana;
+}
+main{
+    background: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.error{
+    color: red;
+    max-width: 310px;
+    margin-bottom: 10px;
+    min-height: 20px;
+    font-size: 14px;
+    clear: both;
+    overflow: auto;
+}
+
+.search-container{
+    display: none;
+}
+
+.loader-container{
+    display: none;
+    width: 100%;
+    border: 1px solid #ddd;
+    clear: both;
+    margin-bottom: 20px;
+    line-height: 12px;
+    height: 12px;
+}
+
+
+#loader{
+    width: 0;
+    background: repeating-linear-gradient( to right,
+    #f6ba52,
+    #f6ba52 10px,
+    #ffd180 10px,
+    #ffd180 20px);
+    overflow: auto;
+    border-radius: 5px;
+    height: inherit;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+input, button{
+    font-size: 20px;
+    color: #333;
+    border: 1px solid #aaa;
+    margin-top: 10px;
+}
+
+input, button{
+    padding: 5px;
+    max-height: 35px;
+}
+
+form{
+    position: relative;
+}
+
+#file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 320px;
+    cursor: pointer;
+}
+
+#file::-webkit-file-upload-button{
+    cursor: pointer;
+}
+
+ #file::-ms-browse{
+    cursor: pointer;
+ }
+
+#uploadFiles {
+    width: 320px;
+}
+
+#search {
+    width: 245px;
+    float: left;
+}
+
+#search + button{
+    float:left;
+}
+
+
+
+
+
