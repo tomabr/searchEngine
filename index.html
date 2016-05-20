@@ -10,11 +10,14 @@
   <body>
     <main>
       <h1>Simple words search engine</h1>
+      <div id="description">Upload text files and search choosen word in it</div>
       <form>
-        <input id="uploadFiles" placeholder="Choose File" disabled="disabled"/>
+        <input id="uploadFiles" placeholder="Choose File"/>
         <input type="file" name="txt" id="file" multiple accept="text/*"/>
+        <div class="success"></div>
         <div class="error"></div>
       </form>
+
       <div class="search-container">
         <input type="text" name="search" id="search" placeholder="Insert search term"/>
         <button type="button">Search</button>
