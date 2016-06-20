@@ -1,0 +1,18 @@
+{
+  "name": "recrutment-task",
+  "version": "0.0.0",
+  "description": "It is a sample engine that searches files adding by user to find search term in them.  Using native js, html and css. It contains a sample loader based on js and gradient css.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomabr/searchEngine.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tomabr/searchEngine/issues"
+  }
+}
